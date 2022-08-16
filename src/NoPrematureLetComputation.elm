@@ -32,7 +32,7 @@ This rule is useful to prevent unnecessary computations and to group related cod
 
 ## Fail
 
-In this example, we compute `value` earlier than needed, and we end up not using it in of the branches.
+In this example, we compute `value` earlier than needed, and we end up not using it in one of the branches.
 
     someFunction n =
         let
